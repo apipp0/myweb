@@ -189,11 +189,43 @@
             transition: all;
             display: flex;
             align-items: center;
+            justify-content: center;
             transition: all;
             transition-duration: 600ms;
         }
         main .biodata .skill .skill-item a:hover{
             padding: 10px;
+        }
+        main .biodata .pendidikann .pendidikann-text {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 1rem;
+            padding: 1rem;
+            gap: 1rem;
+        }
+        main .biodata .pendidikann .pendidikann-text .nama-sekolah{
+            display: flex;
+            gap: 1rem;
+        }
+        main .biodata .pendidikann .pendidikann-text .nama-sekolah a{
+            font-weight: 600;
+            font-family:'Times New Roman', Times, serif;
+            display: flex;
+            gap: 1rem;
+            border-left: 1px solid black;
+            transition: all;
+            transition-duration: 600ms;
+        }
+        main .biodata .pendidikann .pendidikann-text .nama-sekolah a:hover{
+            font-size: 24px;
+        }
+        main .biodata .pendidikann .pendidikann-text .nama-sekolah a i{
+            font-weight: 200;
+            font-family:'Courier New', Courier, monospace;
+            display: flex;
+            gap: 1rem;
         }
         @media only screen and (max-width : 768px){
             nav{
@@ -281,25 +313,25 @@
                     </a>
                 </div>
                 <div class="deskripsi-text">
-                    <a href="#">galihabdigusti29@gmail.com</a>
-                    <a href="#">083166767723</a>
-                    <a href="#">Indonesia</a>
+                    <a href="mailto:emailkamu@gmail.com">galihabdigusti29@gmail.com</a>
+                    <a href="https://wa.me/6283166767723">083166767723</a>
+                    <a href="https://en.wikipedia.org/wiki/Indonesia">Indonesia</a>
                     <a href="#">29 April 2008</a>
                     <a href="#">Apippo.dev</a>
-                    <a href="#">github.com/apipp0</a>
+                    <a href="https://github.com/apipp0">github.com/apipp0</a>
                 </div>
             </div>
             <div class="medsos">
-                <a href="#">
+                <a href="https://github.com/apipp0">
                     <img src="logo/github.png" alt="">
                 </a>
-                <a href="#">
+                <a href="https://www.facebook.com/galihabdi.gusti?mibextid=ZbWKwL">
                     <img src="logo/fesnuk.png" alt="">
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/apip_p0?igsh=dGs1cGRrMjV2NHJq">
                     <img src="logo/instagram.png" alt="">
                 </a>
-                <a href="#">
+                <a href="https://discord.gg/f5dvfnVVNP">
                     <img src="logo/discord.png" alt="">
                 </a>
             </div>
@@ -309,22 +341,32 @@
             <div class="tentang-saya">
                 <a href="#">Tentang Saya</a>
                 <div class="tentang-saya-text">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos veritatis repellat ipsum numquam autem optio repellendus quo tempore suscipit, deserunt tempora aliquid. Est labore explicabo quas distinctio id debitis earum?</p>
+                    <p>Halo, saya Galih. Saya suka dunia teknologi, ngoding, desain web, dan game development.
+  Saat ini saya sering belajar HTML, CSS, Blender, dan Unity untuk membuat project dan
+  mengembangkan skill saya.</p>
                 </div>
             </div>
             <div class="skill">
                 <a href="#">Skill</a>
                 <div class="skill-item">
-                    <a href="#">Web Dev</a>
-                    <a href="#">Game Dev</a>
-                    <a href="#">Animator</a>
-                    <a href="#">Basic Modelling</a>
+                    <a href="https://en.wikipedia.org/wiki/Web_developer">Web Dev</a>
+                    <a href="https://en.wikipedia.org/wiki/Video_game_developer">Game Dev</a>
+                    <a href="https://en.wikipedia.org/wiki/Animator">Animator</a>
+                    <a href="https://en.wikipedia.org/wiki/3D_modeling">Basic Modelling</a>
                 </div>
             </div>
-            <div class="pengalaman">
-                <a href="#">Pengalaman</a>
-                <div class="tentang-saya-text">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos veritatis repellat ipsum numquam autem optio repellendus quo tempore suscipit, deserunt tempora aliquid. Est labore explicabo quas distinctio id debitis earum?</p>
+            <div class="pendidikann">
+                <a href="#">Pendidikann</a>
+                <div class="pendidikann-text">
+                    <div class="nama-sekolah">
+                        <a href="https://dapo.kemendikdasmen.go.id/sekolah/6462323C663A350BC8F0">SDN<i>3 Sindangsuka</i></a>
+                    </div>
+                    <div class="nama-sekolah">
+                        <a href="https://referensi.data.kemendikdasmen.go.id/residu/satuanpendidikan/detail/20209220">SMPN<i>1 Limbangan</i></a>
+                    </div>
+                    <div class="nama-sekolah">
+                        <a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/npsn/20209198">SMK<i>Santana 2 cibatu</i></a>
+                    </div>
                 </div>
             </div>
         </div>
