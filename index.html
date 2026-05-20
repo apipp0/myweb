@@ -175,12 +175,14 @@
         }
         main .biodata .skill .skill-item{
             display: flex;
+            flex-direction: row;
             gap: 2rem;
             padding: 1rem;
         }
         main .biodata .skill .skill-item a{
             background-color: aliceblue;
             border: 1px solid black;
+            width: 100%;
             padding-left: 0;
             padding: 5px;
             border-radius: 1rem;
@@ -279,6 +281,12 @@
             main .biodata{
                 width: 100%;
             }
+            main .biodata .skill .skill-item{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            padding: 1rem;
+        }
         }
     </style>
 </head>
