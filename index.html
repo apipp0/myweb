@@ -39,8 +39,7 @@
             transition-duration: 600ms;
         }
         nav ul li a:hover{
-            border-bottom: 1px solid orangered;
-            color: orangered;
+            border-bottom: 1px solid black;
         }
         nav .profile img{
             width: 4rem;
@@ -286,7 +285,20 @@
             flex-direction: column;
             gap: 2rem;
             padding: 1rem;
-        }
+            }
+            main .biodata .pendidikann .pendidikann-text .nama-sekolah a{
+            font-weight: 600;
+            font-size: 15px;
+            font-family:'Times New Roman', Times, serif;
+            display: flex;
+            gap: 1rem;
+            border-left: 1px solid black;
+            transition: all;
+            transition-duration: 600ms;
+            }
+            main .biodata .pendidikann .pendidikann-text .nama-sekolah a:hover{
+                font-size: 16px;
+            }
         }
     </style>
 </head>
@@ -297,7 +309,7 @@
         </div>
         <ul class="hide" id="class-hide">
             <li>
-                <a href="#">Dashboard</a>
+                <a href="#" style="display: flex; border-bottom: 1px solid black;">Dashboard</a>
             </li>
             <li>
                 <a href="#">Produk</a>
