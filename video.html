@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="fade">
+        <img src="gration.png" alt="">
+    </div>
+    <nav>
+        <div class="profile" id="button-hide">
+            <img src="me.png" alt="">
+        </div>
+        <ul class="hide" id="class-hide">
+            <li>
+                <a href="index.html">Dashboard</a>
+            </li>
+            <li>
+                <a href="video.html" style="display: flex; border-bottom: 1px solid black;">Video</a>
+            </li>
+            <li>
+                <a href="#">Adress</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div class="profile">
+            <img src="me.png" alt="" class="profile-img" id="button-hide-profile">
+            <div class="profile-text">
+                <a href="#">Apip PO</a>
+                <p>Web Programming</p>
+            </div>
+            <div class="des" id="class-hide-profile" class="hide-profile">
+                <div class="deskripsi">
+                <div class="logo">
+                    <a href="mailto:galihabdigusti29@gmail.com">
+                        <img src="logo/email.png" alt="">
+                    </a>
+                    <a href="https://wa.me/6283166767723">
+                        <img src="logo/phone.jpg" alt="">
+                    </a>
+                    <a href="https://en.wikipedia.org/wiki/Indonesia">
+                        <img src="logo/gps.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="logo/age.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="logo/internet.png" alt="">
+                    </a>
+                    <a href="https://github.com/apipp0">
+                        <img src="logo/git.png" alt="">
+                    </a>
+                </div>
+                <div class="deskripsi-text">
+                    <a href="mailto:emailkamu@gmail.com">galihabdigusti29@gmail.com</a>
+                    <a href="https://wa.me/6283166767723">083166767723</a>
+                    <a href="https://en.wikipedia.org/wiki/Indonesia">Indonesia</a>
+                    <a href="#">29 April 2008</a>
+                    <a href="#">Apippo.dev</a>
+                    <a href="https://github.com/apipp0">github.com/apipp0</a>
+                </div>
+            </div>
+            <div class="medsos">
+                <a href="https://github.com/apipp0">
+                    <img src="logo/github.png" alt="">
+                </a>
+                <a href="https://www.facebook.com/galihabdi.gusti?mibextid=ZbWKwL">
+                    <img src="logo/fesnuk.png" alt="">
+                </a>
+                <a href="https://www.instagram.com/apip_p0?igsh=dGs1cGRrMjV2NHJq">
+                    <img src="logo/instagram.png" alt="">
+                </a>
+                <a href="https://www.youtube.com/@kecil2928">
+                    <img src="logo/youtube.png" alt="">
+                </a>
+            </div>
+            </div>
+        </div> 
+        <div class="biodata">
+            <div class="video">
+                <div class="video-list">
+                    <a href="https://www.instagram.com/reel/DXadvjYy-zh/?igsh=MXE0a3Q1NzJ1eHE4bA==">Game Gration Demo</a>
+                    <video controls>
+                        <source src="video/game_demo1.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-list">
+                    <a href="https://www.instagram.com/reel/DY821CJo7tL/?igsh=MTl5OGkzcWFhdHhkeA==">Game Gration Demo2</a>
+                    <video controls>
+                        <source src="video/game_demo2.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-list">
+                    <a href="https://youtu.be/DoTVtYZf1Xc?si=yTqXMHTP-E0FE8s9">Penjelasan Input Manager</a>
+                    <video controls>
+                        <source src="video/tutorial_game1.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-list">
+                    <a href="https://www.instagram.com/reel/DZTse8VIrAH/?igsh=cTJzbzExZWVldDBn">Game Gration Demo3</a>
+                    <video controls>
+                        <source src="video/game_demo3.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="tombol">
+                <div class="tombol-border">
+                    <div class="kembali">
+                    </div>
+                    <div class="kembali">
+                        <img src="logo/kotak.png" alt="">
+                    </div>
+                    <div class="kembali">
+                        <img src="logo/home.png" alt="">
+                    </div>
+                    <div class="kembali">
+                        <img src="logo/back.png" alt="">
+                    </div>
+                    <div class="kembali">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script>
+    const buttonHide = document.getElementById('button-hide');
+    const classHide = document.getElementById('class-hide');
+    buttonHide.addEventListener('click', function (e) {
+        classHide.classList.toggle('hide');
+    });
+    const buttonHideProfile = document.getElementById('button-hide-profile');
+    const classHideProfile = document.getElementById('class-hide-profile');
+    buttonHideProfile.addEventListener('click', function (e) {
+        classHideProfile.classList.toggle('hide-profile');
+    });
+</script>
+</html>
