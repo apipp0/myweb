@@ -12,10 +12,10 @@ body .fade{
     display: flex;
     position: fixed;
     z-index: 1;
+    width: 0;
+    height: 0;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
     animation: keyfade 2s ease forwards;
 }
 body .fade img{
@@ -365,17 +365,24 @@ main .biodata .video{
 @keyframes keyfade {
     0% {
         background-color: black;
+        width: 100%;
+        height: 100%;
     }
     50% {
         background-color: black;
+        width: 100%;
+        height: 100%;
     }
     90% {
         transform: translateX(0);
         opacity: 1;
-        filter: blur(0);
+        width: 100%;
+        height: 100%;
     }
     100% {
         transform: translateX(9000px);
         opacity: 0;
+        width: 10%;
+        height: 10%;
     }
 }
