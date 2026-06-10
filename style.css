@@ -375,7 +375,7 @@ main .biodata .video{
         filter: blur(0);
     }
     100% {
-        transform: translateX(900px);
+        transform: translateX(9000px);
         opacity: 0;
         filter: blur(25px);
     }
