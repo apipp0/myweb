@@ -283,6 +283,39 @@ main .biodata .video .video-list video{
     justify-content: center;
     margin: 1rem;
 }
+main .biodata .link{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+main .biodata .link a{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 15px;
+    gap: 5px;
+    padding: 1rem;
+    width: 100%;
+    height: max-content;
+    transition: all;
+    transition-duration: 600ms;
+}
+main .biodata .link .link-text{
+    font-weight: 600;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main .biodata .link .link-deskripsi{
+    font-weight: 400;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all;
+    transition-duration: 600ms;
+    padding-left: 1rem;
+}
+main .biodata .link a:hover{
+    gap: 1rem;
+}
 @media only screen and (max-width : 768px){
 nav{
     flex-direction: column;
