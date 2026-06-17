@@ -258,7 +258,7 @@ width: 20px;
 }
 main .biodata .video{
     background-color: whitesmoke;
-    height: 500rem;
+    height: max-content;
     display: flex;
     flex-direction: column;
     border: 1px solid black;
@@ -269,7 +269,6 @@ main .biodata .video{
 main .biodata .video .video-list{
     display: flex;
     flex-direction: column;
-    margin-top: 1rem;
 }
 main .biodata .video .video-list a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -346,8 +345,24 @@ main .profile .profile-img:hover{
     width: 9rem;
     height: 9rem;
 }
-main .biodata{
-    width: 100%;
+main .biodata {
+background-color: white;
+border: 1px solid black;
+border-radius: 2rem;
+box-shadow: 5px 5px black;
+height: 100%;
+width: 120%;
+margin: 0;
+display: flex;
+flex-direction: column;
+}
+main .biodata .video {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 0;
+    padding: 0;
+    width: 110%;
 }
 main .biodata .skill .skill-item{
 display: flex;
